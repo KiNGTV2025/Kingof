@@ -1,0 +1,161 @@
+import logging
+import asyncio
+import aiohttp
+from aiohttp import ClientSession, ClientTimeout, TCPConnector, ClientConnectionError
+from config import (
+    get_connector_for_proxy,
+    SELECTED_PROXY_CONTEXT,
+    STRICT_PROXY_CONTEXT,
+    mark_proxy_dead,
+    get_preferred_proxy_for_url,
+    ALL_PROXY_ERRORS,
+)
+import config as _cfg
+
+logger = logging.getLogger(__name__)
+
+class ExtractorError(Exception):
+    pass
+
+
+class MockResponse:
+    """Small response adapter shared by text and binary extractor results."""
+
+    def __init__(self, text, status, headers, url, cookies):
+        self.text = text
+        self.status = status
+        self.status_code = status
+        self.headers = headers
+        self.url = url
+        self.cookies = cookies
+
+    @property
+    def json(self):
+        import json
+
+        try:
+            return json.loads(self.text)
+        except Exception:
+            return {}
+
+
+class BaseExtractor:
+    """Base class for extractors with robust networking and proxy fallback."""
+    
+    def __init__(self, request_headers: dict, proxies: list = None, extractor_name: str = "generic"):
+        self.request_headers = request_headers
+        self.base_headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        }
+        self.session = None
+        self._session_lock = asyncio.Lock()
+        self.mediaflow_endpoint = "hls_proxy"
+        self.proxies = proxies or []
+        self.extractor_name = extractor_name
+        self._session_proxy = None
+        self._route_sessions = {}
+        
+
+    async def _get_session(self, url: str = None):
+        proxy = await get_preferred_proxy_for_url(url, self.extractor_name, self.proxies or _cfg.GLOBAL_PROXIES)
+
+        async with self._session_lock:
+            self.session = self._route_sessions.get(proxy)
+            self._session_proxy = proxy
+            if proxy is None and not _cfg.is_direct_connection_allowed():
+                raise ClientConnectionError(
+                    "No proxy route available; direct fallback disabled"
+                )
+            if (
+                self.session is None
+                or self.session.closed
+                or self._session_proxy != proxy
+            ):
+                timeout = ClientTimeout(total=60, connect=30, sock_read=30)
+
+                if proxy:
+                    connector = get_connector_for_proxy(proxy)
+                else:
+                    connector = TCPConnector(
+                        limit=0, 
+                        limit_per_host=0, 
+                        keepalive_timeout=15, 
+                        enable_cleanup_closed=True, 
+                        use_dns_cache=True
+                    )
+                
+                self.session = ClientSession(
+                    timeout=timeout, 
+                    connector=connector, 
+                    headers={'User-Agent': self.base_headers["User-Agent"]}
+                )
+                self._session_proxy = proxy
+                self._route_sessions[proxy] = self.session
+        return self.session
+
+    async def _make_request(self, url: str, method: str = "GET", headers: dict = None, retries: int = 2, **kwargs):
+        """Perform a robust request with proxy fallback."""
+        final_headers = headers or {}
+        if "User-Agent" not in final_headers:
+            final_headers["User-Agent"] = self.base_headers["User-Agent"]
+
+        session = None
+        for attempt in range(retries):
+            try:
+                session = await self._get_session(url)
+                async with session.request(method, url, headers=final_headers, allow_redirects=True, **kwargs) as response:
+                    response.raise_for_status()
+                    
+                    content_type = response.headers.get("Content-Type", "").lower()
+                    content_length_str = response.headers.get("Content-Length", "0")
+                    content_length = int(content_length_str) if content_length_str.isdigit() else 0
+                    
+                    if "video/" in content_type or "audio/" in content_type or content_length > 2 * 1024 * 1024:
+                        logger.warning(f"[{self.extractor_name}] Skipping text read for binary/large content: {content_type} ({content_length} bytes)")
+                        # Restituisci un MockResponse "vuoto" o che indica il bypass
+                        return MockResponse("", response.status, response.headers, str(response.url), response.cookies)
+
+                    content = await response.text()
+
+                    return MockResponse(content, response.status, response.headers, str(response.url), response.cookies)
+            except ALL_PROXY_ERRORS + (asyncio.TimeoutError, ClientConnectionError, aiohttp.ClientResponseError) as e:
+                is_proxy_err = isinstance(e, ALL_PROXY_ERRORS)
+                is_timeout = isinstance(e, asyncio.TimeoutError)
+                
+                # Check for 403 or network errors to trigger fallback. Keep
+                # intermediate failures quiet: a later retry may succeed.
+                status = getattr(e, 'status', None)
+                if attempt >= retries - 1:
+                    logger.error(
+                        "[%s] Request failed after %s attempts for %s: %s",
+                        self.extractor_name,
+                        retries,
+                        url,
+                        e,
+                    )
+                
+                # aiohttp discards failed connections itself. Closing the shared
+                # session here would abort unrelated concurrent requests.
+                
+                if is_proxy_err and SELECTED_PROXY_CONTEXT.get() and not STRICT_PROXY_CONTEXT.get():
+                    proxy_to_mark = SELECTED_PROXY_CONTEXT.get()
+                    if proxy_to_mark:
+                        mark_proxy_dead(proxy_to_mark)
+                    SELECTED_PROXY_CONTEXT.set(None)
+                
+                if attempt < retries - 1:
+                    await asyncio.sleep(1)
+                else:
+                    raise ExtractorError(f"Request failed after {retries} attempts: {e}")
+        
+        raise ExtractorError(f"Request failed for {url}")
+
+    async def close(self):
+        sessions = set(self._route_sessions.values())
+        if self.session is not None:
+            sessions.add(self.session)
+        for session in sessions:
+            if not session.closed:
+                await session.close()
+        self._route_sessions.clear()
+        self.session = None

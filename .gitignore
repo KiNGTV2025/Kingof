@@ -1,0 +1,27 @@
+*.pyc
+/.venv/
+extractors/.dlhd_cache
+flaresolverr/
+byparr/
+.env
+/scratch
+/.shared_chromium_profile
+dlstreams_activity.txt
+/scripts/*
+# keep scripts required at runtime in the image
+!/scripts/embedst_runner.mjs
+!/scripts/vidfast_runner.mjs
+!/scripts/warp_userspace_ctl.sh
+!/scripts/wg_tunnel_ctl.sh
+!/scripts/cinejoy_runner.mjs
+!/scripts/pow_solver.js
+config.json
+/downloaded_files
+/cache
+/graphify-out
+/data
+/recordings/
+/data-test-warp/
+/.pytest_cache/
+/tests
+/output

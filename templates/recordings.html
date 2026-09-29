@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVR Recordings - EasyProxy</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+        :root {
+            --bg-primary: #09090f;
+            --bg-secondary: #111119;
+            --bg-tertiary: #1a1a28;
+            --surface-glass: rgba(255, 255, 255, 0.06);
+            --surface-elevated: rgba(255, 255, 255, 0.1);
+            --primary-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+            --neon-gradient: linear-gradient(90deg, #06b6d4, #a855f7, #ec4899, #a855f7, #06b6d4);
+            --accent-success: #10b981;
+            --accent-warning: #f59e0b;
+            --accent-error: #ef4444;
+            --text-primary: #ffffff;
+            --text-secondary: #a1a1aa;
+            --text-muted: #6b6b80;
+            --border-primary: rgba(255, 255, 255, 0.08);
+            --border-accent: rgba(255, 255, 255, 0.15);
+            --glow-primary: 0 0 30px rgba(99, 102, 241, 0.25);
+            --border-radius: 16px;
+            --border-radius-large: 24px;
+            --transition-normal: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --font-family: 'Inter', -apple-system, sans-serif;
+            --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+            --glow-secondary: 0 0 40px rgba(168, 85, 247, 0.3);
+            --shadow-dark: 0 25px 60px -15px rgba(0, 0, 0, 0.8);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .bg-glow {
+            position: fixed;
+            top: -40%; left: -20%;
+            width: 140%; height: 140%;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(99, 102, 241, 0.12) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(168, 85, 247, 0.1) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(6, 182, 212, 0.08) 0%, transparent 50%);
+            animation: bgFloat 30s ease-in-out infinite;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        @keyframes bgFloat {
+            0%, 100% { transform: translateY(0) scale(1); }
+            33% { transform: translateY(-20px) scale(1.02); }
+            66% { transform: translateY(20px) scale(0.98); }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            position: relative;
+            z-index: 1;
+            min-height: 100vh;
+        }
+
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 2.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .page-header-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .page-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 900;
+            letter-spacing: -0.03em;
+            line-height: 1.05;
+            background: var(--neon-gradient);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientShift 4s ease-in-out infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .status-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--surface-glass);
+            border: 1px solid var(--border-primary);
+            border-radius: 50px;
+            padding: 6px 16px 6px 8px;
+            backdrop-filter: blur(20px);
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            width: fit-content;
+        }
+
+        .status-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .status-dot.online {
+            background: #39ff14;
+            box-shadow: 0 0 12px #39ff14;
+            animation: dotPulse 2s ease-in-out infinite;
+        }
+
+        .status-dot.offline {
+            background: var(--accent-error);
+            box-shadow: 0 0 12px var(--accent-error);
+        }
+
+        @keyframes dotPulse {
+            0%, 100% { box-shadow: 0 0 8px #39ff14; }
+            50% { box-shadow: 0 0 20px #39ff14, 0 0 30px #39ff14; }
+        }
+
+        .page-nav {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 0.6rem 1.25rem;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            background: var(--surface-glass);
+            color: var(--text-primary);
+            border: 1px solid var(--border-primary);
+            backdrop-filter: blur(20px);
+            transition: var(--transition-normal);
+        }
+
+        .nav-link:hover {
+            transform: translateY(-2px);
+            background: var(--surface-elevated);
+            border-color: var(--border-accent);
+            box-shadow: var(--glow-primary);
+        }
+
+        .version-info-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 0.25rem;
+        }
+
+        .version-chip {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            background: var(--surface-glass);
+            padding: 4px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--border-primary);
+        }
+
+        .version-latest {
+            color: var(--accent-success);
+            font-weight: 600;
+        }
+
+        .version-latest.outdated {
+            color: var(--accent-error);
+            animation: errPulse 2s infinite;
+        }
+
+        @keyframes errPulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        .warp-chip {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 14px;
+            border-radius: 20px;
+            background: rgba(37, 99, 235, 0.1);
+            color: #3b82f6;
+            font-weight: 700;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border: 1px solid rgba(37, 99, 235, 0.2);
+        }
+
+        .warp-chip::before {
+            content: "";
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            background: currentColor;
+        }
+
+        .card {
+            background: var(--surface-glass);
+            border: 1px solid var(--border-primary);
+            border-radius: var(--border-radius-large);
+            padding: 2rem;
+            backdrop-filter: blur(20px);
+            margin-bottom: 1.5rem;
+            transition: var(--transition-normal);
+        }
+
+        .card:hover {
+            border-color: var(--border-accent);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stat-card {
+            background: var(--surface-glass);
+            border: 1px solid var(--border-primary);
+            border-radius: var(--border-radius);
+            padding: 1.25rem;
+            text-align: center;
+            backdrop-filter: blur(20px);
+            transition: var(--transition-normal);
+        }
+
+        .stat-card:hover {
+            background: var(--surface-elevated);
+            border-color: var(--border-accent);
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 6px;
+            height: 6px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: var(--primary-gradient);
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        .stat-value {
+            font-size: 1.75rem;
+            font-weight: 800;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            margin-top: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.25rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 0.85rem 1rem;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--border-primary);
+            border-radius: 12px;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            font-family: inherit;
+            transition: var(--transition-fast);
+            outline: none;
+        }
+
+        .form-input:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.15);
+        }
+
+        .form-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .checkbox-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 0.75rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 0.8rem 1.1rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-primary);
+            background: var(--surface-glass);
+            cursor: pointer;
+            transition: var(--transition-normal);
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            user-select: none;
+        }
+
+        .checkbox-label:hover {
+            border-color: var(--accent-primary);
+            background: var(--surface-elevated);
+        }
+
+        /* Active Glow State - triggers when input inside is checked */
+        .checkbox-label:has(input:checked) {
+            background: rgba(99, 102, 241, 0.12) !important;
+            border-color: var(--accent-primary) !important;
+            color: var(--text-primary) !important;
+            box-shadow: var(--glow-primary) !important;
+        }
+
+        .checkbox-label input[type="checkbox"] {
+            display: none; /* Hide default checkbox completely */
+        }
+
+        .checkbox-label code {
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.78rem;
+            color: var(--accent-primary);
+        }
+
+        .checkbox-desc {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+            line-height: 1.35;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        @media (max-width: 640px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 0.85rem 1.75rem;
+            border: none;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: var(--transition-normal);
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0; left: -100%;
+            width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            transition: var(--transition-normal);
+        }
+
+        .btn:hover::before { left: 100%; }
+
+        .btn-primary {
+            background: var(--primary-gradient);
+            color: white;
+            box-shadow: var(--glow-primary);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--glow-secondary);
+        }
+
+        .btn-danger {
+            background: var(--accent-error);
+            color: white;
+        }
+
+        .btn-danger:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 30px rgba(239, 68, 68, 0.3);
+        }
+
+        .btn-secondary {
+            background: var(--surface-glass);
+            color: var(--text-primary);
+            border: 1px solid var(--border-primary);
+            backdrop-filter: blur(20px);
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            background: var(--surface-elevated);
+            border-color: var(--border-accent);
+        }
+
+        .btn-sm {
+            padding: 0.5rem 1rem;
+            font-size: 0.8rem;
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .recordings-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .recording-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.25rem 1.5rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-primary);
+            border-radius: var(--border-radius);
+            transition: var(--transition-normal);
+        }
+
+        .recording-item:hover {
+            border-color: var(--border-accent);
+            background: var(--surface-glass);
+        }
+
+        .recording-info h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.35rem;
+        }
+
+        .recording-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            align-items: center;
+        }
+
+        .recording-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .recording-actions {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 3px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .status-recording {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--accent-error);
+        }
+
+        .status-recording::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: var(--accent-error);
+            border-radius: 50%;
+            animation: recPulse 1.2s ease-in-out infinite;
+        }
+
+        @keyframes recPulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.7); }
+        }
+
+        .status-completed {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-success);
+        }
+
+        .status-stopped {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--accent-warning);
+        }
+
+        .status-failed {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--accent-error);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: var(--text-secondary);
+        }
+
+        .empty-state-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+            opacity: 0.5;
+        }
+
+        .empty-state p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            padding: 0.85rem 1.5rem;
+            border-radius: 12px;
+            color: white;
+            font-weight: 600;
+            font-size: 0.9rem;
+            z-index: 10000;
+            animation: slideIn 0.3s ease-out;
+            backdrop-filter: blur(20px);
+        }
+
+        .toast-success {
+            background: rgba(16, 185, 129, 0.9);
+            box-shadow: 0 0 30px rgba(16, 185, 129, 0.3);
+        }
+
+        .toast-error {
+            background: rgba(239, 68, 68, 0.9);
+            box-shadow: 0 0 30px rgba(239, 68, 68, 0.3);
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9000;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition-normal);
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-primary);
+            border-radius: var(--border-radius-large);
+            padding: 2rem;
+            max-width: 460px;
+            width: 90%;
+            transform: scale(0.92);
+            transition: var(--transition-normal);
+        }
+
+        .modal-overlay.active .modal {
+            transform: scale(1);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .modal-header h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 4px;
+            line-height: 1;
+            transition: var(--transition-fast);
+        }
+
+        .modal-close:hover {
+            color: var(--text-primary);
+        }
+
+        .modal p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 0.75rem;
+            justify-content: flex-end;
+            margin-top: 1.5rem;
+        }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg-secondary); }
+        ::-webkit-scrollbar-thumb { background: var(--surface-elevated); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--border-accent); }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @media (max-width: 768px) {
+            .container { padding: 1rem; }
+            .recording-item { flex-direction: column; align-items: flex-start; }
+            .recording-actions { width: 100%; justify-content: flex-end; }
+            .page-header { flex-direction: column; }
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid { grid-template-columns: 1fr 1fr; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bg-glow"></div>
+
+    <div class="container">
+        <div class="page-header fade-in visible">
+            <div class="page-header-left">
+                <div class="status-indicator">
+                    <div class="status-dot" id="statusDot"></div>
+                    <span id="statusText">Loading...</span>
+                </div>
+                <h1 class="page-title">DVR Recordings</h1>
+                <div class="version-info-row">
+                    <div class="version-chip">
+                        <span>v{{APP_VERSION}}</span>
+                    </div>
+                    <div class="version-chip">
+                        <span>Latest:</span>
+                        <span class="version-latest {{VERSION_STATUS_CLASS}}">{{LATEST_VERSION}}</span>
+                    </div>
+                    <div class="warp-chip">WARP: {{WARP_STATUS}}</div>
+                </div>
+            </div>
+            <div class="page-nav">
+                <a href="/" class="nav-link">Back to Home</a>
+            </div>
+        </div>
+
+        <div class="stats-grid fade-in">
+            <div class="stat-card">
+                <div class="stat-value" id="activeCount">0</div>
+                <div class="stat-label">Active</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="completedCount">0</div>
+                <div class="stat-label">Completed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="totalSize">0 MB</div>
+                <div class="stat-label">Total Size</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="failedCount">0</div>
+                <div class="stat-label">Failed</div>
+            </div>
+        </div>
+
+        <div class="stats-grid fade-in" style="margin-top: 1rem;">
+            <div class="stat-card" style="text-align: left; display: flex; flex-direction: column; justify-content: space-between;">
+                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                    <div class="stat-label" style="margin-top: 0;">CPU Usage</div>
+                    <div class="stat-value" id="cpuPercent" style="font-size: 1.25rem;">0%</div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="cpuBar"></div>
+                </div>
+            </div>
+            <div class="stat-card" style="text-align: left; display: flex; flex-direction: column; justify-content: space-between;">
+                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                    <div class="stat-label" style="margin-top: 0;">RAM Usage</div>
+                    <div class="stat-value" id="ramPercent" style="font-size: 1.25rem;">0%</div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="ramBar"></div>
+                </div>
+                <div class="stat-label" id="ramDetails" style="font-size: 0.65rem; margin-top: 4px; text-transform: none; text-align: right; width: 100%;">0 / 0</div>
+            </div>
+            <div class="stat-card" style="text-align: left; display: flex; flex-direction: column; justify-content: space-between;">
+                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                    <div class="stat-label" style="margin-top: 0;">Disk Space (DVR)</div>
+                    <div class="stat-value" id="diskPercent" style="font-size: 1.25rem;">0%</div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="diskBar"></div>
+                </div>
+                <div class="stat-label" id="diskDetails" style="font-size: 0.65rem; margin-top: 4px; text-transform: none; text-align: right; width: 100%;">0 / 0 (Free: 0)</div>
+            </div>
+        </div>
+
+        <div class="card fade-in">
+            <div class="card-header">
+                <h2 class="card-title">Start New Recording</h2>
+            </div>
+            <form id="recordingForm">
+                <div class="form-group">
+                    <label class="form-label" for="url">Stream URL *</label>
+                    <input type="url" id="url" class="form-input" placeholder="https://example.com/stream.m3u8" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="extractor">Extractor</label>
+                    <input type="text" id="extractor" class="form-input" list="extractorList" placeholder="Auto-detect (leave empty)">
+                    <datalist id="extractorList">
+                        <option value="vavoo"></option>
+                        <option value="vixsrc"></option>
+                        <option value="vixcloud"></option>
+                        <option value="ads"></option>
+                        <option value="sportsonline"></option>
+                        <option value="mixdrop"></option>
+                        <option value="voe"></option>
+                        <option value="streamtape"></option>
+                        <option value="orion"></option>
+                        <option value="freeshot"></option>
+                        <option value="doodstream"></option>
+                        <option value="fastream"></option>
+                        <option value="filelions"></option>
+                        <option value="filemoon"></option>
+                        <option value="lulustream"></option>
+                        <option value="okru"></option>
+                        <option value="streamwish"></option>
+                        <option value="streamhg"></option>
+                        <option value="supervideo"></option>
+                        <option value="dropload"></option>
+                        <option value="uqload"></option>
+                        <option value="vidmoly"></option>
+                        <option value="vidlink"></option>
+                        <option value="vidoza"></option>
+                        <option value="turbovidplay"></option>
+                        <option value="livetv"></option>
+                        <option value="f16px"></option>
+                        <option value="guardabest"></option>
+                        <option value="sports99"></option>
+                        <option value="dlstreams"></option>
+                        <option value="embedst"></option>
+                        <option value="vidsonic"></option>
+                        <option value="vidxgo"></option>
+                        <option value="vidfast"></option>
+                        <option value="cinejoy"></option>
+                        <option value="mediaset"></option>
+                        <option value="wittytv"></option>
+                        <option value="raiplay"></option>
+                    </datalist>
+                    <div class="checkbox-desc">Forces a specific extractor instead of auto-detection. Useful when the URL is not recognized.</div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Recording Name</label>
+                        <input type="text" id="name" class="form-input" placeholder="My Recording">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="duration">Duration (seconds)</label>
+                        <input type="number" id="duration" class="form-input" placeholder="3600 (1 hour)">
+                    </div>
+                </div>
+                <div class="checkbox-grid">
+                    <label class="checkbox-label">
+                        <input id="recordingBypassWarp" type="checkbox">
+                        <div>
+                            <span>Add <code>warp=off</code></span>
+                            <div class="checkbox-desc">Bypasses the Cloudflare WARP VPN for this specific stream recording, using the server's real IP.</div>
+                        </div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input id="recordingBypassProxy" type="checkbox">
+                        <div>
+                            <span>Add <code>proxy=off</code></span>
+                            <div class="checkbox-desc">Bypasses all configured custom proxies (global/per-extractor) for this stream recording.</div>
+                        </div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input id="recordingDisableSSL" type="checkbox">
+                        <div>
+                            <span>Add <code>disable_ssl=1</code></span>
+                            <div class="checkbox-desc">Disables SSL certificate verification for this stream. Useful for self-signed or unverified SSL CDNs.</div>
+                        </div>
+                    </label>
+                    <label class="checkbox-label">
+                        <input id="recordingMaxRes" type="checkbox">
+                        <div>
+                            <span>Add <code>max_res=true</code></span>
+                            <div class="checkbox-desc">Records only the highest video variant, disabling adaptive bitrate switching. Applies to HLS and MPD sources.</div>
+                        </div>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary" id="startBtn">
+                    Start Recording
+                </button>
+            </form>
+        </div>
+
+        <div class="card fade-in">
+            <div class="card-header">
+                <h2 class="card-title">Recordings</h2>
+                <div style="display: flex; gap: 0.5rem;">
+                    <button class="btn btn-secondary btn-sm" onclick="loadRecordings()">Refresh</button>
+                    <button class="btn btn-danger btn-sm" onclick="openDeleteAllModal()">Delete All</button>
+                </div>
+            </div>
+            <div id="recordingsList" class="recordings-list">
+                <div class="empty-state">
+                    <div class="empty-state-icon">Loading...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="deleteModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Delete Recording</h3>
+                <button class="modal-close" onclick="closeDeleteModal()">&times;</button>
+            </div>
+            <p>Are you sure you want to delete this recording? This action cannot be undone.</p>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" onclick="closeDeleteModal()">Cancel</button>
+                <button class="btn btn-danger" id="confirmDeleteBtn">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="deleteAllModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Delete All Recordings</h3>
+                <button class="modal-close" onclick="closeDeleteAllModal()">&times;</button>
+            </div>
+            <p style="color: var(--accent-error); font-weight: 600;">WARNING: This will delete ALL recordings including active ones!</p>
+            <p>This action cannot be undone. Are you sure?</p>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" onclick="closeDeleteAllModal()">Cancel</button>
+                <button class="btn btn-danger" id="confirmDeleteAllBtn">Delete All</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_PASSWORD = new URLSearchParams(window.location.search).get('api_password') || '';
+        let deleteRecordingId = null;
+        let refreshInterval = null;
+        const REFRESH_INTERVAL_MS = 10000;
+
+        function getAuthParams() {
+            return API_PASSWORD ? `?api_password=${encodeURIComponent(API_PASSWORD)}` : '';
+        }
+
+        function getAuthHeaders() {
+            const headers = { 'Content-Type': 'application/json' };
+            if (API_PASSWORD) {
+                headers['x-api-password'] = API_PASSWORD;
+            }
+            return headers;
+        }
+
+        function showToast(message, type = 'success') {
+            const toast = document.createElement('div');
+            toast.className = `toast toast-${type}`;
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+
+        function formatBytes(bytes) {
+            if (!bytes) return '0 B';
+            const k = 1024;
+            const sizes = ['B', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+
+        function formatDuration(seconds) {
+            if (!seconds && seconds !== 0) return '-';
+            const h = Math.floor(seconds / 3600);
+            const m = Math.floor((seconds % 3600) / 60);
+            const s = seconds % 60;
+            if (h > 0) return `${h}h ${m}m ${s}s`;
+            if (m > 0) return `${m}m ${s}s`;
+            return `${s}s`;
+        }
+
+        function formatDate(isoString) {
+            if (!isoString) return '-';
+            const date = new Date(isoString);
+            return date.toLocaleString();
+        }
+
+        function getStatusBadge(status, isActive) {
+            if (isActive) {
+                return '<span class="status-badge status-recording">Recording</span>';
+            }
+            const map = {
+                'completed': 'status-completed',
+                'stopped': 'status-stopped',
+                'failed': 'status-failed'
+            };
+            const cls = map[status] || '';
+            return `<span class="status-badge ${cls}">${status || 'unknown'}</span>`;
+        }
+
+        async function loadRecordings() {
+            try {
+                const response = await fetch(`/api/recordings${getAuthParams()}`, {
+                    headers: getAuthHeaders()
+                });
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to load recordings');
+                }
+
+                const recordings = data.recordings || [];
+                const listEl = document.getElementById('recordingsList');
+
+                const active = recordings.filter(r => r.is_active).length;
+                const completed = recordings.filter(r => r.status === 'completed').length;
+                const failed = recordings.filter(r => r.status === 'failed').length;
+                const totalSize = recordings.reduce((sum, r) => sum + (r.file_size_bytes || 0), 0);
+
+                document.getElementById('activeCount').textContent = active;
+                document.getElementById('completedCount').textContent = completed;
+                document.getElementById('failedCount').textContent = failed;
+                document.getElementById('totalSize').textContent = formatBytes(totalSize);
+
+                // Update system stats if present in response
+                if (data.system_stats) {
+                    const stats = data.system_stats;
+                    
+                    document.getElementById('cpuPercent').textContent = stats.cpu.percent + '%';
+                    document.getElementById('cpuBar').style.width = stats.cpu.percent + '%';
+                    
+                    document.getElementById('ramPercent').textContent = stats.ram.percent + '%';
+                    document.getElementById('ramBar').style.width = stats.ram.percent + '%';
+                    document.getElementById('ramDetails').textContent = `${formatBytes(stats.ram.used)} / ${formatBytes(stats.ram.total)}`;
+                    
+                    document.getElementById('diskPercent').textContent = stats.disk.percent + '%';
+                    document.getElementById('diskBar').style.width = stats.disk.percent + '%';
+                    document.getElementById('diskDetails').textContent = `${formatBytes(stats.disk.used)} / ${formatBytes(stats.disk.total)} (Free: ${formatBytes(stats.disk.free)})`;
+                }
+
+                if (recordings.length === 0) {
+                    listEl.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-state-icon">No recordings yet</div>
+                            <p>Start a new recording using the form above.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                listEl.innerHTML = recordings.map(rec => `
+                    <div class="recording-item" data-id="${rec.id}">
+                        <div class="recording-info">
+                            <h3>${rec.name || 'Unnamed Recording'}</h3>
+                            <div class="recording-meta">
+                                ${getStatusBadge(rec.status, rec.is_active)}
+                                <span>Started: ${formatDate(rec.started_at)}</span>
+                                ${rec.is_active ? `<span>Elapsed: ${formatDuration(rec.elapsed_seconds)}</span>` : ''}
+                                ${rec.duration_seconds ? `<span>Duration: ${formatDuration(rec.duration_seconds)}</span>` : ''}
+                                ${rec.file_size_bytes ? `<span>Size: ${formatBytes(rec.file_size_bytes)}</span>` : ''}
+                            </div>
+                        </div>
+                        <div class="recording-actions">
+                            ${rec.is_active ? `
+                                <button class="btn btn-danger btn-sm" onclick="stopRecording('${rec.id}')">Stop</button>
+                            ` : `
+                                ${rec.file_size_bytes ? `
+                                    <a href="/api/recordings/${rec.id}/stream${getAuthParams()}" target="_blank" class="btn btn-secondary btn-sm">Play</a>
+                                    <a href="/api/recordings/${rec.id}/download${getAuthParams()}" class="btn btn-secondary btn-sm">Download</a>
+                                ` : ''}
+                                <button class="btn btn-danger btn-sm" onclick="openDeleteModal('${rec.id}')">Delete</button>
+                            `}
+                        </div>
+                    </div>
+                `).join('');
+
+            } catch (error) {
+                console.error('Error loading recordings:', error);
+                showToast(error.message, 'error');
+            }
+        }
+
+        async function startRecording(event) {
+            event.preventDefault();
+
+            const url = document.getElementById('url').value;
+            const name = document.getElementById('name').value;
+            const duration = document.getElementById('duration').value;
+            const extractor = document.getElementById('extractor').value.trim();
+            const bypassWarp = document.getElementById('recordingBypassWarp').checked;
+            const bypassProxy = document.getElementById('recordingBypassProxy').checked;
+            const disableSSL = document.getElementById('recordingDisableSSL').checked;
+            const maxRes = document.getElementById('recordingMaxRes').checked;
+
+            const startBtn = document.getElementById('startBtn');
+            startBtn.disabled = true;
+            startBtn.textContent = 'Starting...';
+
+            try {
+                const body = { url, name: name || undefined, duration: duration ? parseInt(duration) : undefined };
+                if (extractor) body.extractor = extractor;
+                if (bypassWarp) body.warp = 'off';
+                if (bypassProxy) body.proxy = 'off';
+                if (disableSSL) body.disable_ssl = '1';
+                if (maxRes) body.max_res = 'true';
+                const response = await fetch(`/api/recordings/start${getAuthParams()}`, {
+                    method: 'POST',
+                    headers: getAuthHeaders(),
+                    body: JSON.stringify(body)
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to start recording');
+                }
+
+                showToast('Recording started successfully');
+                document.getElementById('recordingForm').reset();
+                loadRecordings();
+
+            } catch (error) {
+                console.error('Error starting recording:', error);
+                showToast(error.message, 'error');
+            } finally {
+                startBtn.disabled = false;
+                startBtn.textContent = 'Start Recording';
+            }
+        }
+
+        async function stopRecording(id) {
+            try {
+                const response = await fetch(`/api/recordings/${id}/stop${getAuthParams()}`, {
+                    method: 'POST',
+                    headers: getAuthHeaders()
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to stop recording');
+                }
+
+                showToast('Recording stopped');
+                loadRecordings();
+
+            } catch (error) {
+                console.error('Error stopping recording:', error);
+                showToast(error.message, 'error');
+            }
+        }
+
+        function openDeleteModal(id) {
+            deleteRecordingId = id;
+            document.getElementById('deleteModal').classList.add('active');
+        }
+
+        function closeDeleteModal() {
+            deleteRecordingId = null;
+            document.getElementById('deleteModal').classList.remove('active');
+        }
+
+        async function confirmDelete() {
+            if (!deleteRecordingId) return;
+
+            try {
+                const response = await fetch(`/api/recordings/${deleteRecordingId}${getAuthParams()}`, {
+                    method: 'DELETE',
+                    headers: getAuthHeaders()
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to delete recording');
+                }
+
+                showToast('Recording deleted');
+                closeDeleteModal();
+                loadRecordings();
+
+            } catch (error) {
+                console.error('Error deleting recording:', error);
+                showToast(error.message, 'error');
+            }
+        }
+
+        function openDeleteAllModal() {
+            document.getElementById('deleteAllModal').classList.add('active');
+        }
+
+        function closeDeleteAllModal() {
+            document.getElementById('deleteAllModal').classList.remove('active');
+        }
+
+        async function confirmDeleteAll() {
+            const btn = document.getElementById('confirmDeleteAllBtn');
+            btn.disabled = true;
+            btn.textContent = 'Deleting...';
+
+            try {
+                const response = await fetch(`/api/recordings/all${getAuthParams()}`, {
+                    method: 'DELETE',
+                    headers: getAuthHeaders()
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to delete recordings');
+                }
+
+                showToast(`Deleted ${data.deleted || 0} recording(s)`);
+                closeDeleteAllModal();
+                loadRecordings();
+
+            } catch (error) {
+                console.error('Error deleting all recordings:', error);
+                showToast(error.message, 'error');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = 'Delete All';
+            }
+        }
+
+        async function checkServerStatus() {
+            try {
+                const response = await fetch(`/api/info${getAuthParams()}`, {
+                    headers: getAuthHeaders()
+                });
+                if (response.ok) {
+                    document.getElementById('statusDot').className = 'status-dot online';
+                    document.getElementById('statusText').textContent = 'System Operational';
+                } else {
+                    throw new Error('not ok');
+                }
+            } catch {
+                document.getElementById('statusDot').className = 'status-dot offline';
+                document.getElementById('statusText').textContent = 'Offline';
+            }
+        }
+
+        // Intersection Observer for fade-in
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.fade-in:not(.visible)').forEach(el => observer.observe(el));
+
+        // Event listeners
+        document.getElementById('recordingForm').addEventListener('submit', startRecording);
+        document.getElementById('confirmDeleteBtn').addEventListener('click', confirmDelete);
+        document.getElementById('confirmDeleteAllBtn').addEventListener('click', confirmDeleteAll);
+
+        // Initial load
+        checkServerStatus();
+        loadRecordings();
+
+        // Auto-refresh every 10 seconds
+        refreshInterval = setInterval(loadRecordings, REFRESH_INTERVAL_MS);
+    </script>
+
+<script src="/static/ep-nav.js"></script>
+</body>
+</html>
