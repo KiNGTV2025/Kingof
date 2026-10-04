@@ -60184,7 +60184,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/t252lin-sahin (2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393731f7378a107c20b90c/episodes",
-  "api_count": 533,
+  "api_count": 534,
   "bolumler": [
    {
     "name": "Tülin Şahin ile Moda 1. Bölüm",
@@ -63916,6 +63916,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ab67c8dd3270c47b7873d52&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 534
+   },
+   {
+    "name": "Tülin Şahin ile Moda 535. Bölüm",
+    "clean_name": "535. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abf9ae8d3270c47b78741a7&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 535
    }
   ]
  },
