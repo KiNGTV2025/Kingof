@@ -1,0 +1,65 @@
+name: VOD M3U Güncelle
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # 6 saatte bir
+  workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: "Kayıtları yok say, her şeyi baştan çek"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    strategy:
+      fail-fast: false
+      matrix:
+        name: [kanald, startv, atv]
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    concurrency:
+      group: vod-${{ matrix.name }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Bağımlılıkları kur
+        run: pip install -r requirements.txt
+
+      - name: Scraper çalıştır
+        env:
+          FULL_REFRESH: ${{ github.event.inputs.full_refresh == 'true' && '1' || '' }}
+        run: python ${{ matrix.name }}.py
+
+      - name: State dosyasını commit'le
+        if: always()   # Timeout/hata olsa bile ilerleme kaybolmasın
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ${{ matrix.name }}_state.json || true
+          if git diff --cached --quiet; then
+            echo "State değişmedi."
+          else
+            git commit -m "${{ matrix.name }} state güncellendi"
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break
+              sleep $((RANDOM % 10 + 3))
+            done
+          fi
+
+      - name: M3U'yu Gist'e yükle
+        if: always()
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+        run: python gist_upload.py ${{ matrix.name }}.m3u
