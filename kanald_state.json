@@ -1,0 +1,650 @@
+{
+ "Haysiyet": {
+  "poster": "https://image.kanald.com.tr/i/kanald/100/264x365/6a9a7624db6b70dfad8c76fd.jpg",
+  "type": "DIZI",
+  "url": "https://www.kanald.com.tr/haysiyet",
+  "bolumler": [
+   {
+    "name": "Haysiyet 4. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/m/Hv/hay4blm/hay4blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/haysiyet/bolumler/haysiyet-son-bolum"
+   },
+   {
+    "name": "Haysiyet 3. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/4/lZ/haysiyet_3_bolum/haysiyet_3_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/haysiyet/bolumler/haysiyet-3-bolum"
+   },
+   {
+    "name": "Haysiyet 2. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/Y/sR/hay_2blm/hay_2blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/haysiyet/bolumler/haysiyet-2-bolum"
+   },
+   {
+    "name": "Haysiyet İlk Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/T/7k/haysiyet1_bolum/haysiyet1_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/haysiyet/bolumler/haysiyet-ilk-bolum"
+   }
+  ]
+ },
+ "Uzak Şehir": {
+  "poster": "https://image.kanald.com.tr/i/kanald/100/264x365/6a917883d73360a428552178.jpg",
+  "type": "DIZI",
+  "url": "https://www.kanald.com.tr/uzak-sehir",
+  "bolumler": [
+   {
+    "name": "Uzak Şehir 66. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/i/gO/us_66_bolum/us_66_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-son-bolum"
+   },
+   {
+    "name": "Uzak Şehir 65. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/y/mp/us65_blm/us65_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-65-bolum"
+   },
+   {
+    "name": "Uzak Şehir 64. Bölüm - YENİ SEZON",
+    "url": "https://kanaldvod.duhnet.tv/hls/U/W4/us_64blm/us_64blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-64-bolum-yeni-sezon"
+   },
+   {
+    "name": "Uzak Şehir 63. Bölüm - SEZON FİNALİ",
+    "url": "https://kanaldvod.duhnet.tv/hls/d/Fm/us_63_bolum/us_63_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-63-bolum-sezon-finali"
+   },
+   {
+    "name": "Uzak Şehir 62. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/R/25/us_62blm/us_62blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-62-bolum"
+   },
+   {
+    "name": "Uzak Şehir 61. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/Y/XM/us_61_bolum/us_61_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-61-bolum"
+   },
+   {
+    "name": "Uzak Şehir 60. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/w/IJ/us_60_bolum_entegrasyon/us_60_bolum_entegrasyon.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-60-bolum"
+   },
+   {
+    "name": "Uzak Şehir 59. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/U/NE/us_59bolum/us_59bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-59-bolum"
+   },
+   {
+    "name": "Uzak Şehir 58. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/o/2m/us_58_bolum/us_58_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-58-bolum"
+   },
+   {
+    "name": "Uzak Şehir 57. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/n/it/us_57_bolum/us_57_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-57-bolum"
+   },
+   {
+    "name": "Uzak Şehir 56. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/y/Gn/us_56bolum/us_56bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-56-bolum"
+   },
+   {
+    "name": "Uzak Şehir 55. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/6/J_/us_55bolum/us_55bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-55-bolum"
+   },
+   {
+    "name": "Uzak Şehir 54. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/F/DK/us_54blm/us_54blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-54-bolum"
+   },
+   {
+    "name": "Uzak Şehir 53. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/c/Cl/us_53_bolum/us_53_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-53-bolum"
+   },
+   {
+    "name": "Uzak Şehir 52. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/8/0J/us_52blm/us_52blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-52-bolum"
+   },
+   {
+    "name": "Uzak Şehir 51. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/b/qN/us_51bolum/us_51bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-51-bolum"
+   },
+   {
+    "name": "Uzak Şehir 50. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/B/bu/us_50_bolum/us_50_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-50-bolum"
+   },
+   {
+    "name": "Uzak Şehir 49. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/K/Wj/us49_bolum/us49_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-49-bolum"
+   },
+   {
+    "name": "Uzak Şehir 48. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/C/zz/us_48_bolum/us_48_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-48-bolum"
+   },
+   {
+    "name": "Uzak Şehir 47. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/_/E7/us_47blm/us_47blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-47-bolum"
+   },
+   {
+    "name": "Uzak Şehir 46. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/k/G4/uzaksehir_46_bolum/uzaksehir_46_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-46-bolum"
+   },
+   {
+    "name": "Uzak Şehir 45. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/I/E8/us_45_bolum/us_45_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-45-bolum"
+   },
+   {
+    "name": "Uzak Şehir 44. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/i/ez/us_44_bolum/us_44_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-44-bolum"
+   },
+   {
+    "name": "Uzak Şehir 43. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/W/gG/us_43_bolum/us_43_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-43-bolum"
+   },
+   {
+    "name": "Uzak Şehir 42. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/j/68/us_42blm/us_42blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-42-bolum"
+   },
+   {
+    "name": "Uzak Şehir 41. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/e/NC/us_41_bolum_antbantvers/us_41_bolum_antbantvers.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-41-bolum"
+   },
+   {
+    "name": "Uzak Şehir 40. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/j/BE/us_40_bolum_altbant_vers/us_40_bolum_altbant_vers.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-40-bolum"
+   },
+   {
+    "name": "Uzak Şehir 39. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/i/Mc/us_39_bolum_entegrasyonlu/us_39_bolum_entegrasyonlu.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-39-bolum"
+   },
+   {
+    "name": "Uzak Şehir 38. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/h/no/us_38blm/us_38blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-38-bolum"
+   },
+   {
+    "name": "Uzak Şehir 37. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/g/NE/us_37_bolum/us_37_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-37-bolum"
+   },
+   {
+    "name": "Uzak Şehir 36. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/O/31/us_36_bolum_altbantvers/us_36_bolum_altbantvers.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-36-bolum"
+   },
+   {
+    "name": "Uzak Şehir 35. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/r/OD/us_35_bolum_altbantvers2/us_35_bolum_altbantvers2.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-35-bolum"
+   },
+   {
+    "name": "Uzak Şehir 34. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/Q/uS/us_34_bolum_altbantvers/us_34_bolum_altbantvers.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-34-bolum"
+   },
+   {
+    "name": "Uzak Şehir 33. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/3/tx/uzaksehir_33_bolum/uzaksehir_33_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-33-bolum"
+   },
+   {
+    "name": "Uzak Şehir 32. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/p/mi/us_32bolum/us_32bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-32-bolum"
+   },
+   {
+    "name": "Uzak Şehir 31. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/-/Ik/us_31_bolum/us_31_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-31-bolum"
+   },
+   {
+    "name": "Uzak Şehir 30. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/2/we/us_30_bolum/us_30_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-30-bolum"
+   },
+   {
+    "name": "Uzak Şehir 29. Bölüm - Yeni Sezon",
+    "url": "https://kanaldvod.duhnet.tv/hls/u/s5/us_29_bolum/us_29_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-29-bolum-yeni-sezon"
+   },
+   {
+    "name": "Uzak Şehir 28. Bölüm - Sezon Finali",
+    "url": "https://kanaldvod.duhnet.tv/hls/B/5I/us28_sf_blm/us28_sf_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-28-bolum-sezon-finali"
+   },
+   {
+    "name": "Uzak Şehir 27. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/q/Uq/us_27_blm/us_27_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-27-bolum"
+   },
+   {
+    "name": "Uzak Şehir 26. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/Q/2b/us_26_bolum/us_26_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-26-bolum"
+   },
+   {
+    "name": "Uzak Şehir 25. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/M/Il/us_25_bolumm/us_25_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-25-bolum"
+   },
+   {
+    "name": "Uzak Şehir 24. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/e/dN/us_24_bolumm/us_24_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-24-bolum"
+   },
+   {
+    "name": "Uzak Şehir 23. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/6/DH/us_23_blm/us_23_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-23-bolum"
+   },
+   {
+    "name": "Uzak Şehir 22. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/U/9F/us_22_bolumm/us_22_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-22-bolum"
+   },
+   {
+    "name": "Uzak Şehir 21. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/b/Jn/us_21_blm/us_21_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-21-bolum"
+   },
+   {
+    "name": "Uzak Şehir 20. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/I/XT/us_20_bolumm/us_20_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-20-bolum"
+   },
+   {
+    "name": "Uzak Şehir 19. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/t/yW/us_19_bolumm/us_19_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-19-bolum"
+   },
+   {
+    "name": "Uzak Şehir 18. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/S/Xi/us_18_blm/us_18_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-18-bolum"
+   },
+   {
+    "name": "Uzak Şehir 17. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/F/cC/us_17_bolumm/us_17_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-17-bolum"
+   },
+   {
+    "name": "Uzak Şehir 16. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/W/ta/us_16_blm/us_16_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-16-bolum"
+   },
+   {
+    "name": "Uzak Şehir 15. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/o/8S/us_15_bolum_rev/us_15_bolum_rev.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-15-bolum"
+   },
+   {
+    "name": "Uzak Şehir 14. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/G/kV/us_14_blm/us_14_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-14-bolum"
+   },
+   {
+    "name": "Uzak Şehir 13. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/_/ht/us_13_blm/us_13_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-13-bolum"
+   },
+   {
+    "name": "Uzak Şehir 12. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/L/xD/us_12_blm/us_12_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-12-bolum"
+   },
+   {
+    "name": "Uzak Şehir 11. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/3/pt/us_11_bolumm/us_11_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-11-bolum"
+   },
+   {
+    "name": "Uzak Şehir 10. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/X/pM/us_10_blm/us_10_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-10-bolum"
+   },
+   {
+    "name": "Uzak Şehir 9. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/z/ET/us_9_bolumm/us_9_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-9-bolum"
+   },
+   {
+    "name": "Uzak Şehir 8. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/m/LV/us_8_bolumm/us_8_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-8-bolum"
+   },
+   {
+    "name": "Uzak Şehir 7. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/q/S2/us_7_blm/us_7_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-7-bolum"
+   },
+   {
+    "name": "Uzak Şehir 6. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/t/QW/us_6blm_rev/us_6blm_rev.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-6-bolum"
+   },
+   {
+    "name": "Uzak Şehir 5. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/l/9Z/us_5_blm/us_5_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-5-bolum"
+   },
+   {
+    "name": "Uzak Şehir 4. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/e/qG/us_4_bolum/us_4_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-4-bolum"
+   },
+   {
+    "name": "Uzak Şehir 3. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/z/Au/us_3_blm_rev/us_3_blm_rev.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-3-bolum"
+   },
+   {
+    "name": "Uzak Şehir 2. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/m/j7/us_2_bolum/us_2_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-2-bolum"
+   },
+   {
+    "name": "Uzak Şehir İlk Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/f/sn/us_1_blms/us_1_blms.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/uzak-sehir/bolumler/uzak-sehir-ilk-bolum"
+   }
+  ]
+ },
+ "Güller ve Günahlar": {
+  "poster": "https://image.kanald.com.tr/i/kanald/100/264x365/68c85dfff35cf5ba33dfcd69.jpg",
+  "type": "DIZI",
+  "url": "https://www.kanald.com.tr/guller-ve-gunahlar",
+  "bolumler": [
+   {
+    "name": "Güller ve Günahlar 36. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/U/jU/gg_36blm/gg_36blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-son-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 35. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/o/Jj/gg_35blmrev/gg_35blmrev.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-35-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 34. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/p/Xb/gg_34_bolumm/gg_34_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-34-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 33. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/Z/KG/gvg_bol33/gvg_bol33.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-33-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 32. Bölüm - Sezon Finali",
+    "url": "https://kanaldvod.duhnet.tv/hls/W/0c/gvg32_sf/gvg32_sf.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-32-bolum-sezon-finali"
+   },
+   {
+    "name": "Güller ve Günahlar 31. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/q/Iu/gvg_bolum31_tntsiz/gvg_bolum31_tntsiz.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-31-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 30. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/h/LW/gg_30_seb/gg_30_seb.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-30-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 29. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/r/8p/gvg_29_bolum/gvg_29_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-29-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 28. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/I/l8/gvgbol28_tntsiz/gvgbol28_tntsiz.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-28-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 27. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/2/r7/gg_27blm/gg_27blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-27-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 26. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/C/oo/gg_26_bolum/gg_26_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-26-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 25. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/K/hd/gvg_25blm/gvg_25blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-25-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 24. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/7/oH/gvg24/gvg24.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-24-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 23. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/x/Fw/gg_23blm/gg_23blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-23-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 22. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/z/PI/gg_22_bolum/gg_22_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-22-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 21. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/X/_D/gvg_bol21/gvg_bol21.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-21-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 20. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/d/ad/gvg_20bolum_rev/gvg_20bolum_rev.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-20-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 19. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/l/AW/gg_19_bolum/gg_19_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-19-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 18. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/8/lu/gg_18blm/gg_18blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-18-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 17. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/I/Pj/gvg17/gvg17.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-17-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 16. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/8/IZ/gvg_16bolum/gvg_16bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-16-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 15. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/q/A7/gg_15blmbant/gg_15blmbant.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-15-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 14. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/w/hW/gg_14_bolum/gg_14_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-14-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 13. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/2/Ai/gvg13/gvg13.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-13-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 12. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/W/rs/gg_12_bolum/gg_12_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-12-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 11. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/p/F3/gg_11_bolum_rev/gg_11_bolum_rev.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-11-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 10. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/_/gB/gvg_10blm_altbantli/gvg_10blm_altbantli.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-10-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 9. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/9/Um/gvg_9bolum/gvg_9bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-9-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 8. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/S/yf/gg_8_bolum/gg_8_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-8-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 7. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/8/L4/gvg_7blm/gvg_7blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-7-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 6. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/o/G3/gg_6_bolum/gg_6_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-6-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 5. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/B/ND/gg_5blm/gg_5blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-5-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 4. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/W/1S/gvg_bol4_altbantli/gvg_bol4_altbantli.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-4-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 3. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/e/4d/gg_3_bolum_rev/gg_3_bolum_rev.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-3-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar 2. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/Z/rZ/gg_2_bolum_rev/gg_2_bolum_rev.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-2-bolum"
+   },
+   {
+    "name": "Güller ve Günahlar İlk Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/_/OS/gvg_1_blm/gvg_1_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/guller-ve-gunahlar/bolumler/guller-ve-gunahlar-ilk-bolum"
+   }
+  ]
+ },
+ "Daha 17": {
+  "poster": "https://image.kanald.com.tr/i/kanald/100/264x365/6a0ec9b2573a03dd661c9d39.jpg",
+  "type": "DIZI",
+  "url": "https://www.kanald.com.tr/daha-17",
+  "bolumler": [
+   {
+    "name": "Daha 17 18. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/q/dn/doy18_blm/doy18_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-son-bolum"
+   },
+   {
+    "name": "Daha 17 17. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/c/1H/daha17_17_bolum/daha17_17_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-17-bolum"
+   },
+   {
+    "name": "Daha 17 16. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/Y/Px/doy_bolum16/doy_bolum16.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-16-bolum"
+   },
+   {
+    "name": "Daha 17 15. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/N/aU/doy17_blm/doy17_blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-15-bolum"
+   },
+   {
+    "name": "Daha 17 14. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/x/n6/d17_14_bolumm/d17_14_bolumm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-14-bolum"
+   },
+   {
+    "name": "Daha 17 13. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/d/nC/doy_bolum17/doy_bolum17.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-13-bolum"
+   },
+   {
+    "name": "Daha 17 12. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/t/pX/daha17_12blm/daha17_12blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-12-bolum"
+   },
+   {
+    "name": "Daha 17 11. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/u/sx/d17_11blm/d17_11blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-11-bolum"
+   },
+   {
+    "name": "Daha 17 10. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/y/i_/doy_bol10/doy_bol10.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-10-bolum"
+   },
+   {
+    "name": "Daha 17 9. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/V/qm/daha17_9_bolum/daha17_9_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-9-bolum"
+   },
+   {
+    "name": "Daha 17 8. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/P/SS/daha17_8blm/daha17_8blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-8-bolum"
+   },
+   {
+    "name": "Daha 17 7. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/f/jj/daha17_7blm/daha17_7blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-7-bolum"
+   },
+   {
+    "name": "Daha 17 6. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/N/Ud/daha17_bol6/daha17_bol6.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-6-bolum"
+   },
+   {
+    "name": "Daha 17 5. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/2/6x/d17_bolum_5/d17_bolum_5.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-5-bolum"
+   },
+   {
+    "name": "Daha 17 4. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/E/iy/daha17_4blm/daha17_4blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-4-bolum"
+   },
+   {
+    "name": "Daha 17 3. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/Q/NT/daha17_3blm/daha17_3blm.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-3-bolum"
+   },
+   {
+    "name": "Daha 17 2. Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/n/sX/daha17_bolum2/daha17_bolum2.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-2-bolum"
+   },
+   {
+    "name": "Daha 17 İlk Bölüm",
+    "url": "https://kanaldvod.duhnet.tv/hls/e/3a/d17_1_bolum/d17_1_bolum.smil/playlist.m3u8",
+    "page": "https://www.kanald.com.tr/daha-17/bolumler/daha-17-ilk-bolum"
+   }
+  ]
+ }
+}
