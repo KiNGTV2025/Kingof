@@ -38767,7 +38767,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2932,
+  "api_count": 2933,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -41497,6 +41497,13 @@
     "clean_name": "4. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/8(184).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6a9b0cfea46e38b3a392539b&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 4
+   },
+   {
+    "name": "Star Haber 4 Ekim 2026 Ana Haber",
+    "clean_name": "4. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/4ekim.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac295d6d3270c47b78742f4&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 4
    },
    {
@@ -59286,7 +59293,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/bir_sansim_olsa_web_1242x1730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66c43f6c7f1df9cf36a27c7c/episodes",
-  "api_count": 127,
+  "api_count": 128,
   "bolumler": [
    {
     "name": "Aslı Özkaya İle Bir Şansım Olsa 242. Bölüm",
@@ -60176,6 +60183,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/bsm-368.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abf9a7ad3270c47b78741a5&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 368
+   },
+   {
+    "name": "Aslı Özkaya İle Bir Şansım Olsa 369. Bölüm",
+    "clean_name": "369. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/bsm-pazar.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abfa165d3270c47b7874276&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 369
    }
   ]
  },
@@ -63931,7 +63945,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/5497895343908a50656374e6.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65391211f7378a107c20a549/episodes",
-  "api_count": 450,
+  "api_count": 451,
   "bolumler": [
    {
     "name": "Vahe ile Evdeki Mutluluk 1. Bölüm",
@@ -67082,6 +67096,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/chatgptimage25eyl202609_36_58.png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ab61707d3270c47b7873bee&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 451
+   },
+   {
+    "name": "Vahe ile Evdeki Mutluluk 452. Bölüm - Adana & İzmir",
+    "clean_name": "452. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/09d3f726-7d62-446a-ba6c-e72058a129f1.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abf8a86d3270c47b7874185&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 452
    }
   ]
  },
