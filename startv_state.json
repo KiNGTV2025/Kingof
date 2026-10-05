@@ -199,7 +199,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/231irkin-dikey.jpg",
   "type": "DIZI",
   "api_path": "/api/tv-series/69a046d6604a1fbc5d83e783/episodes",
-  "api_count": 10,
+  "api_count": 11,
   "bolumler": [
    {
     "name": "Çirkin 1. Bölüm",
@@ -270,6 +270,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/asd(7).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ab60867d3270c47b7873bd9&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 10
+   },
+   {
+    "name": "Çirkin 11. Bölüm",
+    "clean_name": "11. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/231iko-b246l252.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abf918fd3270c47b7874197&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 11
    }
   ]
  },
