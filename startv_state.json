@@ -38774,7 +38774,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2933,
+  "api_count": 2934,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -42183,6 +42183,13 @@
     "clean_name": "5. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/0509.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6a9c5520a46e38b3a39253af&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 5
+   },
+   {
+    "name": "Star Haber 5 Ekim 2026 Ana Haber",
+    "clean_name": "5. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/5ekim.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac3e77c147366462aad13da&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 5
    },
    {
