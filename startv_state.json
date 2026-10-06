@@ -35713,7 +35713,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 436,
+  "api_count": 437,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -38766,6 +38766,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/sana-deger(36).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abf9899d3270c47b78741a1&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 460
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 461. Bölüm",
+    "clean_name": "461. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/anaaa.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac39831147366462aad13cb&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 461
    }
   ]
  },
