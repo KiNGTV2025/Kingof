@@ -35748,7 +35748,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 440,
+  "api_count": 441,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -38829,6 +38829,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/aan-464.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac80911147366462aad1507&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 464
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 465. Bölüm",
+    "clean_name": "465. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/sanadeger(8).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8e0db147366462aad1595&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 465
    }
   ]
  },
@@ -38837,7 +38844,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2937,
+  "api_count": 2938,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -44976,6 +44983,13 @@
     "clean_name": "9. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/9(3).png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aa1a6d7755f87153f61dd1f&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 9
+   },
+   {
+    "name": "Star Haber 9 Ekim 2026 Ana Haber",
+    "clean_name": "9. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/9ekim.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac93365147366462aad161d&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 9
    },
    {
