@@ -35762,7 +35762,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 441,
+  "api_count": 442,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -38850,6 +38850,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/sanadeger(8).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8e0db147366462aad1595&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 465
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 466. Bölüm",
+    "clean_name": "466. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/466.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6accda3f147366462aad179e&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 466
    }
   ]
  },
@@ -38858,7 +38865,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2939,
+  "api_count": 2940,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -46355,6 +46362,13 @@
     "clean_name": "11. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/11(2).png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aa44a86604b4ef9bac6f508&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 11
+   },
+   {
+    "name": "Star Haber 11 Ekim 2026 Ana Haber",
+    "clean_name": "11. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/11(74).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6acbcd8e147366462aad16b6&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 11
    },
    {
@@ -59426,7 +59440,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/bir_sansim_olsa_web_1242x1730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66c43f6c7f1df9cf36a27c7c/episodes",
-  "api_count": 128,
+  "api_count": 129,
   "bolumler": [
    {
     "name": "Aslı Özkaya İle Bir Şansım Olsa 242. Bölüm",
@@ -60323,6 +60337,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/bsm-pazar.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abfa165d3270c47b7874276&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 369
+   },
+   {
+    "name": "Aslı Özkaya İle Bir Şansım Olsa 370. Bölüm",
+    "clean_name": "370. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/sss(13).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac7841c147366462aad14cf&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 370
    }
   ]
  },
@@ -60331,7 +60352,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/t252lin-sahin (2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393731f7378a107c20b90c/episodes",
-  "api_count": 534,
+  "api_count": 535,
   "bolumler": [
    {
     "name": "Tülin Şahin ile Moda 1. Bölüm",
@@ -64070,6 +64091,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abf9ae8d3270c47b78741a7&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 535
+   },
+   {
+    "name": "Tülin Şahin ile Moda 536. Bölüm",
+    "clean_name": "536. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8a645147366462aad155e&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 536
    }
   ]
  },
@@ -112989,6 +113017,22 @@
     "img": "https://media.startv.com.tr/star-tv/images/15b9fa1c4aa1aa9948fd7dd3.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_32321&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 9999
+   }
+  ]
+ },
+ "cansucananilebugun": {
+  "title": "Cansu Canan ile Bugün",
+  "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
+  "type": "PROGRAM",
+  "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
+  "api_count": 1,
+  "bolumler": [
+   {
+    "name": "Cansu Canan ile Bugün 1. Bölüm",
+    "clean_name": "1. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/ansu-1.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6acc9830147366462aad16c5&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 1
    }
   ]
  }
