@@ -38865,7 +38865,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2940,
+  "api_count": 2941,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -47041,6 +47041,13 @@
     "clean_name": "12. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/12eylul.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aa59251604b4ef9bac6f592&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 12
+   },
+   {
+    "name": "Star Haber 12 Ekim 2026 Ana Haber",
+    "clean_name": "12. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/12(45).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6acd26bd147366462aad17a5&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 12
    },
    {
@@ -59440,7 +59447,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/bir_sansim_olsa_web_1242x1730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66c43f6c7f1df9cf36a27c7c/episodes",
-  "api_count": 129,
+  "api_count": 130,
   "bolumler": [
    {
     "name": "Aslı Özkaya İle Bir Şansım Olsa 242. Bölüm",
@@ -60344,6 +60351,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/sss(13).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac7841c147366462aad14cf&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 370
+   },
+   {
+    "name": "Aslı Özkaya İle Bir Şansım Olsa 371. Bölüm",
+    "clean_name": "371. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/s(12).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8c5ac147366462aad1575&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 371
    }
   ]
  },
@@ -64106,7 +64120,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/5497895343908a50656374e6.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65391211f7378a107c20a549/episodes",
-  "api_count": 451,
+  "api_count": 452,
   "bolumler": [
    {
     "name": "Vahe ile Evdeki Mutluluk 1. Bölüm",
@@ -67264,6 +67278,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/09d3f726-7d62-446a-ba6c-e72058a129f1.png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abf8a86d3270c47b7874185&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 452
+   },
+   {
+    "name": "Vahe ile Evdeki Mutluluk 453. Bölüm - Konya",
+    "clean_name": "453. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/6c144621-94f7-48a6-8d4b-1cc73032f908.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8d38c147366462aad158e&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 453
    }
   ]
  },
@@ -67272,7 +67293,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/fddfff2b4630b27dce0e2c12.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65389f93f7378a107c202c54/episodes",
-  "api_count": 925,
+  "api_count": 926,
   "bolumler": [
    {
     "name": "En Güzel Bölüm 1. Bölüm",
@@ -68294,6 +68315,13 @@
     "clean_name": "10. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/egb10haziran.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6a291ebf8a6b7f6ca50ee9d1&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 10
+   },
+   {
+    "name": "En Güzel Bölüm 10 Ekim 2026",
+    "clean_name": "10. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/enguzelbolum10ekim.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8ed06147366462aad1600&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 10
    },
    {
