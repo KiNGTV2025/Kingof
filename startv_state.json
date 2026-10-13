@@ -35578,7 +35578,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/didem_arslan_yilmazla_vazgecme_web_1242x1730_p3(2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6a8837c73a20ecdc5d37057e/episodes",
-  "api_count": 25,
+  "api_count": 26,
   "bolumler": [
    {
     "name": "Didem Arslan Yılmaz'la Vazgeçme 1. Bölüm",
@@ -35754,6 +35754,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/25(7).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac92915147366462aad1619&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 25
+   },
+   {
+    "name": "Didem Arslan Yılmaz'la Vazgeçme 26. Bölüm",
+    "clean_name": "26. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/22(27).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6acd3d26147366462aad17ac&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 26
    }
   ]
  },
@@ -35762,7 +35769,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 442,
+  "api_count": 443,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -38857,6 +38864,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/466.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6accda3f147366462aad179e&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 466
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 467. Bölüm",
+    "clean_name": "467. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/467sd.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ace252c147366462aad17ce&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 467
    }
   ]
  },
@@ -67293,7 +67307,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/fddfff2b4630b27dce0e2c12.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65389f93f7378a107c202c54/episodes",
-  "api_count": 926,
+  "api_count": 927,
   "bolumler": [
    {
     "name": "En Güzel Bölüm 1. Bölüm",
@@ -68413,6 +68427,13 @@
     "clean_name": "11. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/48079642412db5fbb924c1a7.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_88385&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 11
+   },
+   {
+    "name": "En Güzel Bölüm 11 Ekim 2026",
+    "clean_name": "11. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/1212(5).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6acb8736147366462aad16a6&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 11
    },
    {
