@@ -35797,7 +35797,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 445,
+  "api_count": 446,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -38913,6 +38913,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/469star.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad0cd35147366462aad18d1&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 469
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 470. Bölüm",
+    "clean_name": "470. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/470.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad21040ef431c557785db10&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 470
    }
   ]
  },
