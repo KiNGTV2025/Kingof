@@ -64,7 +64,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sevd.jpg",
   "type": "DIZI",
   "api_path": "/api/tv-series/691c514ec81e9c51371f99b1/episodes",
-  "api_count": 20,
+  "api_count": 21,
   "bolumler": [
    {
     "name": "Sevdiğim Sensin 1. Bölüm",
@@ -205,6 +205,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/ss20.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac80622147366462aad14f4&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 20
+   },
+   {
+    "name": "Sevdiğim Sensin 21. Bölüm",
+    "clean_name": "21. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/ss-bolum.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6acf70cf147366462aad1883&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 21
    }
   ]
  },
