@@ -4,7 +4,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/1(267).jpg",
   "type": "DIZI",
   "api_path": "/api/tv-series/6a6b394ae975d61139ec197e/episodes",
-  "api_count": 3,
+  "api_count": 4,
   "bolumler": [
    {
     "name": "Başkalarının Hayatı 1. Bölüm",
@@ -26,6 +26,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/bas-push.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8a9dc147366462aad1563&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 3
+   },
+   {
+    "name": "Başkalarının Hayatı 4. Bölüm",
+    "clean_name": "4. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/bhblm4.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad1dbbfef431c557785daf9&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 4
    }
   ]
  },
@@ -59552,7 +59559,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/bir_sansim_olsa_web_1242x1730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66c43f6c7f1df9cf36a27c7c/episodes",
-  "api_count": 130,
+  "api_count": 131,
   "bolumler": [
    {
     "name": "Aslı Özkaya İle Bir Şansım Olsa 242. Bölüm",
@@ -60463,6 +60470,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/s(12).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8c5ac147366462aad1575&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 371
+   },
+   {
+    "name": "Aslı Özkaya İle Bir Şansım Olsa 372. Bölüm",
+    "clean_name": "372. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/bso372.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad216ecef431c557785db14&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 372
    }
   ]
  },
