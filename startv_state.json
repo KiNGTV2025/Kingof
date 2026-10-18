@@ -38935,7 +38935,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2945,
+  "api_count": 2946,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -50513,6 +50513,13 @@
     "clean_name": "17. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/1709.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aac28a0604b4ef9bac6f92f&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 17
+   },
+   {
+    "name": "Star Haber 17 Ekim 2026 Ana Haber",
+    "clean_name": "17. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/17ekim.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad3b839ef431c557785db94&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 17
    },
    {
