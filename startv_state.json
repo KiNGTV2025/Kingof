@@ -38942,7 +38942,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2947,
+  "api_count": 2948,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -51881,6 +51881,13 @@
     "episode_num": 19
    },
    {
+    "name": "Star Haber 19 Ekim 2026 Ana Haber",
+    "clean_name": "19. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/199(2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad65b57ef431c557785dc45&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 19
+   },
+   {
     "name": "Star Haber 20 Eylül 2018 Ana Haber",
     "clean_name": "20. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/5cf3efc54fd093eb4af436c9.jpg",
@@ -64260,7 +64267,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/5497895343908a50656374e6.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65391211f7378a107c20a549/episodes",
-  "api_count": 452,
+  "api_count": 453,
   "bolumler": [
    {
     "name": "Vahe ile Evdeki Mutluluk 1. Bölüm",
@@ -67425,6 +67432,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/6c144621-94f7-48a6-8d4b-1cc73032f908.png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8d38c147366462aad158e&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 453
+   },
+   {
+    "name": "Vahe ile Evdeki Mutluluk 454. Bölüm - İzmir",
+    "clean_name": "454. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/izmir.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad22611ef431c557785db23&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 454
    }
   ]
  },
@@ -113200,7 +113214,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 5,
+  "api_count": 6,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -113236,6 +113250,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/cansu5.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad1f480ef431c557785db09&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 5
+   },
+   {
+    "name": "Cansu Canan ile Bugün 6. Bölüm",
+    "clean_name": "6. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/4w(2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad5e340ef431c557785dc03&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 6
    }
   ]
  }
