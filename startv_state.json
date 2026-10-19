@@ -38942,7 +38942,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2946,
+  "api_count": 2947,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -51202,6 +51202,13 @@
     "episode_num": 18
    },
    {
+    "name": "Star Haber 18 Ekim 2026 Ana Haber",
+    "clean_name": "18. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/188(2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad51881ef431c557785dbf5&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 18
+   },
+   {
     "name": "Star Haber 19 Eylül 2018 Ana Haber",
     "clean_name": "19. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/7a1f124b4fffb46fd68bd835.jpg",
@@ -60492,7 +60499,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/t252lin-sahin (2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393731f7378a107c20b90c/episodes",
-  "api_count": 535,
+  "api_count": 536,
   "bolumler": [
    {
     "name": "Tülin Şahin ile Moda 1. Bölüm",
@@ -64238,6 +64245,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ac8a645147366462aad155e&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 536
+   },
+   {
+    "name": "Tülin Şahin ile Moda 537. Bölüm",
+    "clean_name": "537. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad22683ef431c557785db25&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 537
    }
   ]
  },
