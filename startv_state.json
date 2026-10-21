@@ -35592,7 +35592,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/didem_arslan_yilmazla_vazgecme_web_1242x1730_p3(2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6a8837c73a20ecdc5d37057e/episodes",
-  "api_count": 30,
+  "api_count": 31,
   "bolumler": [
    {
     "name": "Didem Arslan Yılmaz'la Vazgeçme 1. Bölüm",
@@ -35803,6 +35803,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/clean_vazgecme_yayin_tekrari_1610.mp4_snapshot_00.01.00.640.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad26e31ef431c557785db7d&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 30
+   },
+   {
+    "name": "Didem Arslan Yılmaz'la Vazgeçme 31. Bölüm",
+    "clean_name": "31. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/dido(2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad665f8ef431c557785dc4c&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 31
    }
   ]
  },
@@ -35811,7 +35818,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 447,
+  "api_count": 448,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -38941,6 +38948,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/sd471.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad60894ef431c557785dc19&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 471
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 472. Bölüm",
+    "clean_name": "472. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/sd(59).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad7586fef431c557785dc76&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 472
    }
   ]
  },
