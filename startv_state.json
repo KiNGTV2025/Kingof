@@ -38991,7 +38991,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2949,
+  "api_count": 2951,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -53302,6 +53302,13 @@
     "episode_num": 21
    },
    {
+    "name": "Star Haber 21 Ekim 2026 Ana Haber",
+    "clean_name": "21. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/sabb.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad90bd2ef431c557785dd41&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 21
+   },
+   {
     "name": "Star Haber 22 Eylül 2018 Ana Haber",
     "clean_name": "22. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/3e2d0c5041d1bf49e641f608.jpg",
@@ -53971,6 +53978,13 @@
     "clean_name": "22. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/staranahaber.png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ab2ee3a3b7c898dfad9358a&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 22
+   },
+   {
+    "name": "Star Haber 22 Ekim 2026 Ana Haber",
+    "clean_name": "22. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/cccc.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ada48c7ef431c557785dd88&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 22
    },
    {
