@@ -35832,7 +35832,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 449,
+  "api_count": 450,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -38976,6 +38976,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/sd472.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad8b57cef431c557785dd23&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 473
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 474. Bölüm",
+    "clean_name": "474. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/sanadeger(9).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ada0fc2ef431c557785dd6b&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 474
    }
   ]
  },
@@ -38984,7 +38991,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2948,
+  "api_count": 2949,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -52606,6 +52613,13 @@
     "clean_name": "20. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/staranahaber(5).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ab03bfc3b7c898dfad93477&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 20
+   },
+   {
+    "name": "Star Haber 20 Ekim 2026 Ana Haber",
+    "clean_name": "20. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/20ekim(2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad7b7b2ef431c557785dc87&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 20
    },
    {
@@ -113256,7 +113270,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 8,
+  "api_count": 9,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -113313,6 +113327,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/web(69).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad880c5ef431c557785dd02&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 8
+   },
+   {
+    "name": "Cansu Canan ile Bugün 9. Bölüm",
+    "clean_name": "9. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/cansucanan.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad9d591ef431c557785dd57&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 9
    }
   ]
  }
