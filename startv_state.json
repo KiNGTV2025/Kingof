@@ -113291,7 +113291,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 9,
+  "api_count": 10,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -113355,6 +113355,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/cansucanan.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad9d591ef431c557785dd57&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 9
+   },
+   {
+    "name": "Cansu Canan ile Bugün 10. Bölüm",
+    "clean_name": "10. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/10cansucana.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6adb13aaef431c557785ddbb&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 10
    }
   ]
  }
