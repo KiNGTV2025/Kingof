@@ -4,7 +4,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/1(267).jpg",
   "type": "DIZI",
   "api_path": "/api/tv-series/6a6b394ae975d61139ec197e/episodes",
-  "api_count": 4,
+  "api_count": 5,
   "bolumler": [
    {
     "name": "Başkalarının Hayatı 1. Bölüm",
@@ -33,6 +33,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/bhblm4.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad1dbbfef431c557785daf9&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 4
+   },
+   {
+    "name": "Başkalarının Hayatı 5. Bölüm",
+    "clean_name": "5. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/bh1920.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6adb1c31ef431c557785ddc4&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 5
    }
   ]
  },
