@@ -35860,7 +35860,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 450,
+  "api_count": 451,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39011,6 +39011,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/sanadeger(9).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ada0fc2ef431c557785dd6b&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 474
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 475. Bölüm",
+    "clean_name": "475. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/sd475.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6adb57f9ef431c557785df6e&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 475
    }
   ]
  },
@@ -39019,7 +39026,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2951,
+  "api_count": 2954,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -54688,6 +54695,13 @@
     "episode_num": 23
    },
    {
+    "name": "Star Haber 23 Ekim 2026 Ana Haber",
+    "clean_name": "23. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/aa(6).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6adba8deef431c557785dfbb&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 23
+   },
+   {
     "name": "Star Haber 24 Eylül 2018 Ana Haber",
     "clean_name": "24. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/6755248745f783002feefebc.jpg",
@@ -55360,6 +55374,13 @@
     "episode_num": 24
    },
    {
+    "name": "Star Haber 24 Ekim 2026 Ana Haber",
+    "clean_name": "24. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/24(12).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6adcf1bdef431c557785dfe8&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 24
+   },
+   {
     "name": "Star Haber 25 Eylül 2018 Ana Haber",
     "clean_name": "25. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/99e332eb4f1ba9497a2c26d3.jpg",
@@ -56029,6 +56050,13 @@
     "clean_name": "25. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/staramahaber.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ab6cdd3d3270c47b7873d5e&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 25
+   },
+   {
+    "name": "Star Haber 25 Ekim 2026 Ana Haber",
+    "clean_name": "25. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/staranahaber(7).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ade4dc5ef431c557785e052&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 25
    },
    {
@@ -59671,7 +59699,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/bir_sansim_olsa_web_1242x1730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66c43f6c7f1df9cf36a27c7c/episodes",
-  "api_count": 132,
+  "api_count": 134,
   "bolumler": [
    {
     "name": "Aslı Özkaya İle Bir Şansım Olsa 242. Bölüm",
@@ -60596,6 +60624,20 @@
     "img": "https://media.startv.com.tr/star-tv/images/bso373.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad21a52ef431c557785db19&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 373
+   },
+   {
+    "name": "Aslı Özkaya İle Bir Şansım Olsa 374. Bölüm",
+    "clean_name": "374. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/374(2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6adb6645ef431c557785dfb2&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 374
+   },
+   {
+    "name": "Aslı Özkaya İle Bir Şansım Olsa 375. Bölüm",
+    "clean_name": "375. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/375.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6adb6677ef431c557785dfb6&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 375
    }
   ]
  },
@@ -60604,7 +60646,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/t252lin-sahin (2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393731f7378a107c20b90c/episodes",
-  "api_count": 536,
+  "api_count": 537,
   "bolumler": [
    {
     "name": "Tülin Şahin ile Moda 1. Bölüm",
@@ -64357,6 +64399,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad22683ef431c557785db25&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 537
+   },
+   {
+    "name": "Tülin Şahin ile Moda 538. Bölüm",
+    "clean_name": "538. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6adca84def431c557785dfe1&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 538
    }
   ]
  },
@@ -64365,7 +64414,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/5497895343908a50656374e6.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65391211f7378a107c20a549/episodes",
-  "api_count": 453,
+  "api_count": 454,
   "bolumler": [
    {
     "name": "Vahe ile Evdeki Mutluluk 1. Bölüm",
@@ -67537,6 +67586,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/izmir.png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad22611ef431c557785db23&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 454
+   },
+   {
+    "name": "Vahe ile Evdeki Mutluluk 455. Bölüm - Balıkesir",
+    "clean_name": "455. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/6(188).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6adb4256ef431c557785ddf8&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 455
    }
   ]
  },
