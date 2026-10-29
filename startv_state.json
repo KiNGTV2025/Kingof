@@ -35606,7 +35606,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/didem_arslan_yilmazla_vazgecme_web_1242x1730_p3(2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6a8837c73a20ecdc5d37057e/episodes",
-  "api_count": 36,
+  "api_count": 38,
   "bolumler": [
    {
     "name": "Didem Arslan Yılmaz'la Vazgeçme 1. Bölüm",
@@ -35859,6 +35859,20 @@
     "img": "https://media.startv.com.tr/star-tv/images/vazge231me(2).png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6adfb783817b40855bbfa3c6&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 36
+   },
+   {
+    "name": "Didem Arslan Yılmaz'la Vazgeçme 37. Bölüm",
+    "clean_name": "37. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/vazfe231me37.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae104a6817b40855bbfa420&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 37
+   },
+   {
+    "name": "Didem Arslan Yılmaz'la Vazgeçme 38. Bölüm",
+    "clean_name": "38. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/vazge231me(3).png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae25f32817b40855bbfa496&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 38
    }
   ]
  },
@@ -35867,7 +35881,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 453,
+  "api_count": 454,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39039,6 +39053,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/477.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae096c3817b40855bbfa3f6&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 477
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 478. Bölüm",
+    "clean_name": "478. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/sanadeger(10).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae1f989817b40855bbfa480&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 478
    }
   ]
  },
@@ -39047,7 +39068,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2955,
+  "api_count": 2957,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -57425,6 +57446,13 @@
     "episode_num": 27
    },
    {
+    "name": "Star Haber 27 Ekim 2026 Ana Haber",
+    "clean_name": "27. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/anahaber(2).png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae103b4817b40855bbfa41c&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 27
+   },
+   {
     "name": "Star Haber 28 Eylül 2018 Ana Haber",
     "clean_name": "28. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/fdce8b5a4ae0a79501da9a1e.jpg",
@@ -58080,6 +58108,13 @@
     "clean_name": "28. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/haber28eylul.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abaac97d3270c47b7873edb&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 28
+   },
+   {
+    "name": "Star Haber 28 Ekim 2026 Ana Haber",
+    "clean_name": "28. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/anahaber(5).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae24c30817b40855bbfa48f&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 28
    },
    {
