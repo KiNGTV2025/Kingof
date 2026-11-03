@@ -35606,7 +35606,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/didem_arslan_yilmazla_vazgecme_web_1242x1730_p3(2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6a8837c73a20ecdc5d37057e/episodes",
-  "api_count": 40,
+  "api_count": 41,
   "bolumler": [
    {
     "name": "Didem Arslan Yılmaz'la Vazgeçme 1. Bölüm",
@@ -35887,6 +35887,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/vazge199me.png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae4fc78817b40855bbfa5bd&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 40
+   },
+   {
+    "name": "Didem Arslan Yılmaz'la Vazgeçme 41. Bölüm",
+    "clean_name": "41. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/vazgecme41.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae8e7d32e4fb35504823699&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 41
    }
   ]
  },
@@ -39103,7 +39110,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2961,
+  "api_count": 2962,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -40482,6 +40489,13 @@
     "clean_name": "2. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/2ekimhaber.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6abff2d3d3270c47b7874283&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 2
+   },
+   {
+    "name": "Star Haber 2 Kasım 2026 Ana Haber",
+    "clean_name": "2. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/haber2ksm.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae8cfe92e4fb35504823692&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 2
    },
    {
