@@ -35909,7 +35909,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 458,
+  "api_count": 459,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39116,6 +39116,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/sanadeger482.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae9ced242746daf396f226c&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 482
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 483. Bölüm",
+    "clean_name": "483. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/4(247).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aeb263042746daf396f22a2&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 483
    }
   ]
  },
@@ -113557,7 +113564,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 17,
+  "api_count": 18,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -113677,6 +113684,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/5w(2).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae9ba3d42746daf396f2265&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 17
+   },
+   {
+    "name": "Cansu Canan ile Bugün 18. Bölüm",
+    "clean_name": "18. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/cansucanan(4).png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aeaefbf42746daf396f2295&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 18
    }
   ]
  }
