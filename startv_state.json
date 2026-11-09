@@ -35944,7 +35944,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 461,
+  "api_count": 462,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39172,6 +39172,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/sana-degeer.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aedbd6742746daf396f2398&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 485
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 486. Bölüm",
+    "clean_name": "486. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/486.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af1c75a42746daf396f25dc&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 486
    }
   ]
  },
@@ -59951,7 +59958,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/bir_sansim_olsa_web_1242x1730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66c43f6c7f1df9cf36a27c7c/episodes",
-  "api_count": 136,
+  "api_count": 138,
   "bolumler": [
    {
     "name": "Aslı Özkaya İle Bir Şansım Olsa 242. Bölüm",
@@ -60904,6 +60911,20 @@
     "img": "https://media.startv.com.tr/star-tv/images/bso377.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae478a5817b40855bbfa51e&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 377
+   },
+   {
+    "name": "Aslı Özkaya İle Bir Şansım Olsa 378. Bölüm",
+    "clean_name": "378. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/44(17).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aedbbec42746daf396f238e&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 378
+   },
+   {
+    "name": "Aslı Özkaya İle Bir Şansım Olsa 379. Bölüm",
+    "clean_name": "379. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/4(248).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aedbc5142746daf396f2392&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 379
    }
   ]
  },
@@ -60912,7 +60933,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/t252lin-sahin (2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393731f7378a107c20b90c/episodes",
-  "api_count": 538,
+  "api_count": 539,
   "bolumler": [
    {
     "name": "Tülin Şahin ile Moda 1. Bölüm",
@@ -64679,6 +64700,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae4e62b817b40855bbfa5b9&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 539
+   },
+   {
+    "name": "Tülin Şahin ile Moda 540. Bölüm",
+    "clean_name": "540. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aedbc6f42746daf396f2394&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 540
    }
   ]
  },
@@ -64687,7 +64715,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/5497895343908a50656374e6.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65391211f7378a107c20a549/episodes",
-  "api_count": 455,
+  "api_count": 456,
   "bolumler": [
    {
     "name": "Vahe ile Evdeki Mutluluk 1. Bölüm",
@@ -67873,6 +67901,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/erz.png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae43c64817b40855bbfa4e2&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 456
+   },
+   {
+    "name": "Vahe ile Evdeki Mutluluk 457. Bölüm - Diyarbakır",
+    "clean_name": "457. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/vem457.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aeda2b042746daf396f237f&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 457
    }
   ]
  },
