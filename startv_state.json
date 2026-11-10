@@ -35944,7 +35944,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 462,
+  "api_count": 463,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39179,6 +39179,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/486.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af1c75a42746daf396f25dc&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 486
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 487. Bölüm",
+    "clean_name": "487. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/487.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af2ce5442746daf396f25fc&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 487
    }
   ]
  },
