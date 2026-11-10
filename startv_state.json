@@ -39194,7 +39194,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2968,
+  "api_count": 2970,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -45399,6 +45399,13 @@
     "episode_num": 9
    },
    {
+    "name": "Star Haber 9 Kasım 2026 Ana Haber",
+    "clean_name": "9. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/0911.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af20f0842746daf396f25e9&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 9
+   },
+   {
     "name": "Star Haber 10 Eylül 2018 Ana Haber",
     "clean_name": "10. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/397966bd425ca70a401757f0.jpg",
@@ -46075,6 +46082,13 @@
     "clean_name": "10. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/haber10ekim.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aca84d5147366462aad165d&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 10
+   },
+   {
+    "name": "Star Haber 10 Kasım 2026 Ana Haber",
+    "clean_name": "10. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/10ksm.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af364f542746daf396f261d&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 10
    },
    {
@@ -113690,7 +113704,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 20,
+  "api_count": 22,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -113831,6 +113845,20 @@
     "img": "https://media.startv.com.tr/star-tv/images/2w(4).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aed91f142746daf396f236a&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 20
+   },
+   {
+    "name": "Cansu Canan ile Bugün 21. Bölüm",
+    "clean_name": "21. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/cc-121.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af17b0a42746daf396f25b1&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 21
+   },
+   {
+    "name": "Cansu Canan ile Bugün 22. Bölüm",
+    "clean_name": "22. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/3w(3).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af2d0b742746daf396f2600&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 22
    }
   ]
  }
