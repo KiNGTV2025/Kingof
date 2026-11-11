@@ -35620,7 +35620,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/didem_arslan_yilmazla_vazgecme_web_1242x1730_p3(2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6a8837c73a20ecdc5d37057e/episodes",
-  "api_count": 46,
+  "api_count": 47,
   "bolumler": [
    {
     "name": "Didem Arslan Yılmaz'la Vazgeçme 1. Bölüm",
@@ -35943,6 +35943,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/46(7).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af225f242746daf396f25f0&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 46
+   },
+   {
+    "name": "Didem Arslan Yılmaz'la Vazgeçme 47. Bölüm",
+    "clean_name": "47. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/47.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af3764042746daf396f2624&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 47
    }
   ]
  },
