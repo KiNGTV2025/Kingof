@@ -35620,7 +35620,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/didem_arslan_yilmazla_vazgecme_web_1242x1730_p3(2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6a8837c73a20ecdc5d37057e/episodes",
-  "api_count": 48,
+  "api_count": 49,
   "bolumler": [
    {
     "name": "Didem Arslan Yılmaz'la Vazgeçme 1. Bölüm",
@@ -35957,6 +35957,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/48(3).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af4c3f642746daf396f26bc&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 48
+   },
+   {
+    "name": "Didem Arslan Yılmaz'la Vazgeçme 49. Bölüm",
+    "clean_name": "49. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/49star.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af612c142746daf396f26e8&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 49
    }
   ]
  },
@@ -35965,7 +35972,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 464,
+  "api_count": 465,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39214,6 +39221,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/488.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af4691942746daf396f2696&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 488
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 489. Bölüm",
+    "clean_name": "489. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/6(192).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af5afa542746daf396f26dc&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 489
    }
   ]
  },
@@ -39222,7 +39236,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2970,
+  "api_count": 2971,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -46796,6 +46810,13 @@
     "clean_name": "11. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/11(74).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6acbcd8e147366462aad16b6&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 11
+   },
+   {
+    "name": "Star Haber 11 Kasım 2026 Ana Haber",
+    "clean_name": "11. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/11st.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af4af1642746daf396f26b5&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 11
    },
    {
@@ -113732,7 +113753,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 22,
+  "api_count": 24,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -113887,6 +113908,20 @@
     "img": "https://media.startv.com.tr/star-tv/images/3w(3).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af2d0b742746daf396f2600&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 22
+   },
+   {
+    "name": "Cansu Canan ile Bugün 23. Bölüm",
+    "clean_name": "23. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/23ss.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af484d242746daf396f26a7&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 23
+   },
+   {
+    "name": "Cansu Canan ile Bugün 24. Bölüm",
+    "clean_name": "24. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/asuss.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af57d7842746daf396f26d2&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 24
    }
   ]
  }
