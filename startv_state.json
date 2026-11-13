@@ -85,7 +85,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sevd.jpg",
   "type": "DIZI",
   "api_path": "/api/tv-series/691c514ec81e9c51371f99b1/episodes",
-  "api_count": 23,
+  "api_count": 24,
   "bolumler": [
    {
     "name": "Sevdiğim Sensin 1. Bölüm",
@@ -247,6 +247,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/19920.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ae1b637817b40855bbfa456&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 23
+   },
+   {
+    "name": "Sevdiğim Sensin 24. Bölüm",
+    "clean_name": "24. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/s24.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af6135842746daf396f26ef&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 24
    }
   ]
  },
@@ -35972,7 +35979,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 465,
+  "api_count": 466,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39228,6 +39235,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/6(192).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af5afa542746daf396f26dc&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 489
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 490. Bölüm",
+    "clean_name": "490. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/eden.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af6db3142746daf396f2746&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 490
    }
   ]
  },
@@ -39236,7 +39250,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2971,
+  "api_count": 2972,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -47496,6 +47510,13 @@
     "clean_name": "12. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/12(45).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6acd26bd147366462aad17a5&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 12
+   },
+   {
+    "name": "Star Haber 12 Kasım 2026 Ana Haber",
+    "clean_name": "12. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/1211(2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af61d3542746daf396f2708&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 12
    },
    {
@@ -113753,7 +113774,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 24,
+  "api_count": 25,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -113922,6 +113943,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/asuss.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af57d7842746daf396f26d2&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 24
+   },
+   {
+    "name": "Cansu Canan ile Bugün 25. Bölüm",
+    "clean_name": "25. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/cansucananblm25.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af6ef6c42746daf396f279c&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 25
    }
   ]
  }
