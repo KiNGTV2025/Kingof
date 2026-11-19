@@ -35634,7 +35634,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/didem_arslan_yilmazla_vazgecme_web_1242x1730_p3(2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6a8837c73a20ecdc5d37057e/episodes",
-  "api_count": 51,
+  "api_count": 53,
   "bolumler": [
    {
     "name": "Didem Arslan Yılmaz'la Vazgeçme 1. Bölüm",
@@ -35992,6 +35992,20 @@
     "img": "https://media.startv.com.tr/star-tv/images/sd(60).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afb5376d048d568da676f5e&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 51
+   },
+   {
+    "name": "Didem Arslan Yılmaz'la Vazgeçme 52. Bölüm",
+    "clean_name": "52. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/52(2).png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afc9712d048d568da676fb0&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 52
+   },
+   {
+    "name": "Didem Arslan Yılmaz'la Vazgeçme 53. Bölüm",
+    "clean_name": "53. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/cv.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afdff68d048d568da677011&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 53
    }
   ]
  },
@@ -39292,7 +39306,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2976,
+  "api_count": 2977,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -50989,6 +51003,13 @@
     "clean_name": "17. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/17ekim.png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad3b839ef431c557785db94&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 17
+   },
+   {
+    "name": "Star Haber 17 Kasım 2026 Ana Haber",
+    "clean_name": "17. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/17-kasim.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afc9a1ed048d568da676fb4&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 17
    },
    {
