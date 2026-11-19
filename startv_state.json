@@ -39306,7 +39306,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2977,
+  "api_count": 2978,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -51689,6 +51689,13 @@
     "clean_name": "18. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/188(2).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad51881ef431c557785dbf5&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 18
+   },
+   {
+    "name": "Star Haber 18 Kasım 2026 Ana Haber",
+    "clean_name": "18. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/18-kasim.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afdee67d048d568da67700a&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 18
    },
    {
@@ -113893,7 +113900,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 28,
+  "api_count": 29,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -114090,6 +114097,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/ibo(5).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afd5c74d048d568da676fdd&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 28
+   },
+   {
+    "name": "Cansu Canan ile Bugün 29. Bölüm",
+    "clean_name": "29. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/el231231.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afeb0cad048d568da67702b&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 29
    }
   ]
  }
