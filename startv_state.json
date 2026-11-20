@@ -36014,7 +36014,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 469,
+  "api_count": 470,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39298,6 +39298,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/493.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afd98fdd048d568da676ff7&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 493
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 494. Bölüm",
+    "clean_name": "494. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/494.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afee8cbd048d568da67705a&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 494
    }
   ]
  },
@@ -39306,7 +39313,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2978,
+  "api_count": 2979,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -52375,6 +52382,13 @@
     "clean_name": "19. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/199(2).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad65b57ef431c557785dc45&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 19
+   },
+   {
+    "name": "Star Haber 19 Kasım 2026 Ana Haber",
+    "clean_name": "19. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/19-kasim.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6aff46c4d048d568da67706f&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 19
    },
    {
