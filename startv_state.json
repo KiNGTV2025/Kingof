@@ -60196,7 +60196,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/bir_sansim_olsa_web_1242x1730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66c43f6c7f1df9cf36a27c7c/episodes",
-  "api_count": 140,
+  "api_count": 141,
   "bolumler": [
    {
     "name": "Aslı Özkaya İle Bir Şansım Olsa 242. Bölüm",
@@ -61177,6 +61177,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/yasli.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af70a9142746daf396f27bd&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 381
+   },
+   {
+    "name": "Aslı Özkaya İle Bir Şansım Olsa 382. Bölüm",
+    "clean_name": "382. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/ctesi(4).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afff9c0d048d568da6770af&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 382
    }
   ]
  },
