@@ -61206,7 +61206,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/t252lin-sahin (2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393731f7378a107c20b90c/episodes",
-  "api_count": 540,
+  "api_count": 541,
   "bolumler": [
    {
     "name": "Tülin Şahin ile Moda 1. Bölüm",
@@ -64987,6 +64987,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af70c7e42746daf396f27c1&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 541
+   },
+   {
+    "name": "Tülin Şahin ile Moda 542. Bölüm",
+    "clean_name": "542. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/t252lin (2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afffd64d048d568da6770b9&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 542
    }
   ]
  },
@@ -64995,7 +65002,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/5497895343908a50656374e6.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65391211f7378a107c20a549/episodes",
-  "api_count": 457,
+  "api_count": 458,
   "bolumler": [
    {
     "name": "Vahe ile Evdeki Mutluluk 1. Bölüm",
@@ -68195,6 +68202,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/m.png",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af6afa442746daf396f271f&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 458
+   },
+   {
+    "name": "Vahe ile Evdeki Mutluluk 459. Bölüm - Sivas",
+    "clean_name": "459. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/s(3).png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6affd9cdd048d568da6770a4&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 459
    }
   ]
  },
