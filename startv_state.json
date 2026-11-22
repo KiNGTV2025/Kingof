@@ -39341,7 +39341,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2980,
+  "api_count": 2981,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -53796,6 +53796,13 @@
     "clean_name": "21. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/sabb.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6ad90bd2ef431c557785dd41&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 21
+   },
+   {
+    "name": "Star Haber 21 Kasım 2026 Ana Haber",
+    "clean_name": "21. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/21.png",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b01dda0d048d568da67716c&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 21
    },
    {
