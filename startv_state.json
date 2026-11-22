@@ -4,7 +4,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/1(267).jpg",
   "type": "DIZI",
   "api_path": "/api/tv-series/6a6b394ae975d61139ec197e/episodes",
-  "api_count": 7,
+  "api_count": 8,
   "bolumler": [
    {
     "name": "Başkalarının Hayatı 1. Bölüm",
@@ -54,6 +54,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/baska-7.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6af6f3a142746daf396f27ab&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 7
+   },
+   {
+    "name": "Başkalarının Hayatı 8. Bölüm",
+    "clean_name": "8. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/baska-b246l252m(2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b0009dbd048d568da6770f2&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 8
    }
   ]
  },
