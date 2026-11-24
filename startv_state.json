@@ -35648,7 +35648,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/didem_arslan_yilmazla_vazgecme_web_1242x1730_p3(2).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6a8837c73a20ecdc5d37057e/episodes",
-  "api_count": 55,
+  "api_count": 56,
   "bolumler": [
    {
     "name": "Didem Arslan Yılmaz'la Vazgeçme 1. Bölüm",
@@ -36034,6 +36034,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/55(19).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b0088d5d048d568da67714a&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 55
+   },
+   {
+    "name": "Didem Arslan Yılmaz'la Vazgeçme 56. Bölüm",
+    "clean_name": "56. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/56(4).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b04972bd048d568da67720c&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 56
    }
   ]
  },
@@ -36042,7 +36049,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 472,
+  "api_count": 473,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39347,6 +39354,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/039dan-10039e-b246l252m-tm-yeni-2026-rev.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b03ef43d048d568da6771cc&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 496
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 497. Bölüm",
+    "clean_name": "497. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/47(2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b058a88d048d568da677223&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 497
    }
   ]
  },
@@ -114012,7 +114026,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 30,
+  "api_count": 31,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -114223,6 +114237,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/3w(5).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b03f699d048d568da6771d0&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 31
+   },
+   {
+    "name": "Cansu Canan ile Bugün 32. Bölüm",
+    "clean_name": "32. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/214ggree.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b05455ad048d568da677219&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 32
    }
   ]
  }
