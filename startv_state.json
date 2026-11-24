@@ -36042,7 +36042,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 471,
+  "api_count": 472,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39340,6 +39340,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/sd495.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b0039bcd048d568da677139&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 495
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 496. Bölüm",
+    "clean_name": "496. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/039dan-10039e-b246l252m-tm-yeni-2026-rev.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b03ef43d048d568da6771cc&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 496
    }
   ]
  },
@@ -39348,7 +39355,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sta_1242x730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/65393879f7378a107c20badf/episodes",
-  "api_count": 2982,
+  "api_count": 2983,
   "bolumler": [
    {
     "name": "Star Haber 1 Eylül 2018 Ana Haber",
@@ -55178,6 +55185,13 @@
     "episode_num": 23
    },
    {
+    "name": "Star Haber 23 Kasım 2026 Ana Haber",
+    "clean_name": "23. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/23(7).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b04829cd048d568da677205&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 23
+   },
+   {
     "name": "Star Haber 24 Eylül 2018 Ana Haber",
     "clean_name": "24. Bölüm",
     "img": "https://media.startv.com.tr/star-tv/images/6755248745f783002feefebc.jpg",
@@ -60217,7 +60231,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/bir_sansim_olsa_web_1242x1730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66c43f6c7f1df9cf36a27c7c/episodes",
-  "api_count": 141,
+  "api_count": 142,
   "bolumler": [
    {
     "name": "Aslı Özkaya İle Bir Şansım Olsa 242. Bölüm",
@@ -61205,6 +61219,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/ctesi(4).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afff9c0d048d568da6770af&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 382
+   },
+   {
+    "name": "Aslı Özkaya İle Bir Şansım Olsa 383. Bölüm",
+    "clean_name": "383. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/pzr(2).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afff9ead048d568da6770b3&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 383
    }
   ]
  },
@@ -113991,7 +114012,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 29,
+  "api_count": 30,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -114195,6 +114216,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/el231231.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6afeb0cad048d568da67702b&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 29
+   },
+   {
+    "name": "Cansu Canan ile Bugün 31. Bölüm",
+    "clean_name": "31. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/3w(5).jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b03f699d048d568da6771d0&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 31
    }
   ]
  }
