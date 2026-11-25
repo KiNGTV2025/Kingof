@@ -36056,7 +36056,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/sd_12421730.jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/66b0c336197342ccbaadf9e0/episodes",
-  "api_count": 473,
+  "api_count": 474,
   "bolumler": [
    {
     "name": "Songül ve Uğur ile Sana Değer 1. Bölüm",
@@ -39368,6 +39368,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/47(2).jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b058a88d048d568da677223&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 497
+   },
+   {
+    "name": "Songül ve Uğur ile Sana Değer 498. Bölüm",
+    "clean_name": "498. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/sacv.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b06cdb7d048d568da677287&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 498
    }
   ]
  },
