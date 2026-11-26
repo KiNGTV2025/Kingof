@@ -114047,7 +114047,7 @@
   "resim": "https://media.startv.com.tr/star-tv/images/d(10).jpg",
   "type": "PROGRAM",
   "api_path": "/api/programs/6abd13b7d3270c47b7874044/episodes",
-  "api_count": 31,
+  "api_count": 32,
   "bolumler": [
    {
     "name": "Cansu Canan ile Bugün 1. Bölüm",
@@ -114265,6 +114265,13 @@
     "img": "https://media.startv.com.tr/star-tv/images/214ggree.jpg",
     "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b05455ad048d568da677219&SecretKey=NtvApiSecret2014*&.m3u8",
     "episode_num": 32
+   },
+   {
+    "name": "Cansu Canan ile Bugün 33. Bölüm",
+    "clean_name": "33. Bölüm",
+    "img": "https://media.startv.com.tr/star-tv/images/cansu33web.jpg",
+    "link": "https://dygvideo.dygdigital.com/api/redirect?PublisherId=1&ReferenceId=StarTV_6b06a102d048d568da67727b&SecretKey=NtvApiSecret2014*&.m3u8",
+    "episode_num": 33
    }
   ]
  }
